@@ -21,10 +21,23 @@
   },
 
   "variants": {
-    "one": {
-      "default": "true"
-    },
-    "two": {},
-    "three": {}
+    "ben_carson": {"default": "true"},
+    "ted_cruz": {},
+    "rand_paul": {},
+    "allen_west": {},
+    "rick_perry": {},
+    "scott_walker": {},
+    "chris_christie": {},
+    "marco_rubio": {},
+    "mike_huckabe": {},
+    "mitt_romney": {},
+    "rick_santorum": {},
+    "paul_ryan": {},
+    "bobby_jindal": {},
+    "mike_lee": {},
+    "jeb_bush": {},
+    "trey_gowdy": {}
   }
 }
+
+
