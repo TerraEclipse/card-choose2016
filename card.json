@@ -14,7 +14,7 @@
   "variables": {
     "first": "Your",
     "last": "Name",
-    "city": "Your City",
+    "city": "City",
     "state": "State",
     "state_full": "State",
     "avatar": "./images/avatar.png"
