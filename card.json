@@ -11,9 +11,6 @@
   "styles": [
     "./styles.less"
   ],
-  // "scripts": [
-  //   "./main.js"
-  // ],
   "variables": {
     "first": "Your",
     "last": "Name",
