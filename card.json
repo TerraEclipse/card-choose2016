@@ -21,7 +21,13 @@
   },
 
   "variants": {
-    "ben_carson": {"default": "true"},
+    "ben_carson": {
+      "default": "true",
+      "variables": {
+        "candidate_picture": "./images/ben_carson.jpg",
+        "candidate_name": "Ben Carson"
+      }
+    },
     "ted_cruz": {},
     "rand_paul": {},
     "allen_west": {},
