@@ -15,9 +15,19 @@ body {
   position: absolute;
   top: 90px;
   left: -18px;
+}
+.candidate-image .image-wrapper {
+  width: 245px;
+  height: 245px;
+  overflow: hidden;
+  background: #b4c1cc;
+  border: 5px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 98px 1px rgba(0,0,0,0.5);
   -ms-transform: rotate(7deg);
   -webkit-transform: rotate(7deg);
   transform: rotate(-7deg);
+  -webkit-backface-visibility: hidden;
 }
 .signature {
   position: relative;
