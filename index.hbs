@@ -8,9 +8,11 @@
 <body {{{bodyClasses}}}>
   <div class="wrapper">
     <div class="candidate-image">
-      {{#if variants}}
-        <img src="{{candidate_picture}}" alt="{{candidate_name}}">
-      {{/if}}
+      <div class="image-wrapper">
+        {{#if variants}}
+          <img src="{{candidate_picture}}" alt="{{candidate_name}}">
+        {{/if}}
+      </div>
     </div>
     <div class="signature">
       {{#if avatar}}
