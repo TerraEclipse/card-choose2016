@@ -20,6 +20,7 @@
     "avatar": "./images/avatar.png"
   },
   "variants": {
+    "ben_carson": {
       "variables": {
         "candidate_picture": "./images/ben_carson.jpg",
         "candidate_name": "Ben Carson"
@@ -117,3 +118,5 @@
     }
   }
 }
+
+
