@@ -17,21 +17,23 @@
     </div>
     <div class="main">
       <div class="main-inner">
-        <div class="info">
-          <span class="name">{{{first}}} {{{last}}}</span>
-          <span class="spacer">.</span>
-          <span class="location">
-            {{{city}}}
-            {{#if state}}{{#if city}}, {{/if}}{{/if}}
-            {{#if city}}{{state}}{{else}}{{state_full}}{{/if}}
-          </span>
-        </div>
-        <div class="signature">
-          {{#if avatar}}
-            <div class="avatar-wrapper">
-              <span class="avatar" style="background-image: url({{{avatar}}})"></span>
-            </div>
-          {{/if}}
+        <div class="user-profile">
+          <div class="info">
+            <span class="name">{{{first}}} {{{last}}}</span>
+            <span class="spacer">.</span>
+            <span class="location">
+              {{{city}}}
+              {{#if state}}{{#if city}}, {{/if}}{{/if}}
+              {{#if city}}{{state}}{{else}}{{state_full}}{{/if}}
+            </span>
+          </div>
+          <div class="signature">
+            {{#if avatar}}
+              <div class="avatar-wrapper">
+                <span class="avatar" style="background-image: url({{{avatar}}})"></span>
+              </div>
+            {{/if}}
+          </div>
         </div>
       </div>
     </div>

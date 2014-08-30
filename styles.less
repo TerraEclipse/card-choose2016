@@ -47,9 +47,12 @@ body {
 .main .main-inner {
   margin: 20px 40px 0;
 }
+.user-profile {
+  display: table;
+}
 .signature {
   position: relative;
-  display: inline-block;
+  display: table-cell;
 }
 .avatar-wrapper {
   position: relative;
@@ -63,22 +66,6 @@ body {
   overflow: hidden;
   border-radius: 50%;
   -webkit-border-radius: 50%;
-}
-body.world .avatar-wrapper {
-  top: 155px;
-}
-body.life .avatar-wrapper {
- top: 27px;
-}
-body.future .avatar-wrapper {
-  left: -4px;
-  top: 6px;
-  width: 144px;
-  height: 144px;
-}
-body.cats .avatar-wrapper {
-  left: -78px;
-  top: 5px;
 }
 .avatar {
   display: block;
@@ -102,31 +89,11 @@ body.cats .avatar-wrapper {
   font-weight: bold;
 }
 .info {
-  display: inline-block;
-  text-align: center;
-  font-weight: 300;
+  display: table-cell;
+  vertical-align: top;
+  font-weight: 900;
   font-size: 27px;
   color: #fff;
-}
-body.world .info {
-  top: 131px;
-}
-body.life .info {
-  bottom: 48px;
-}
-body.future .info {
-  bottom: 20px;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 1.6em;
-}
-body.cats .info {
-  bottom: 25px;
-  left: 48px;
-  width: 555px;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 1.6em;
 }
 .info .name {
   margin-bottom: 4px;
