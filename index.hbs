@@ -7,10 +7,12 @@
 </head>
 <body {{{bodyClasses}}}>
   <div class="wrapper">
-    <div class="candidates">
-      <h1>variants:</h1>
+    <div class="candidate-image">
+      {{#if variants}}
+        <img src="/images/{{variants}}.jpg" alt="{{variant}}">
+      {{/if}}
+
       {{variants}}
-      {{variants.[0]}}
     </div>
     <div class="signature">
       {{#if avatar}}
