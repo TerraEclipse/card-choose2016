@@ -104,7 +104,7 @@ body {
   text-shadow: 2px 2px 3px rgba(0,0,0,0.5)
 }
 .info .name {
-  margin-bottom: 4px;
+  margin: 5px 0 2px;
 }
 .info .spacer {
   color: #fff;
