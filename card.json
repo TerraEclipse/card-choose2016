@@ -11,6 +11,9 @@
   "styles": [
     "./styles.less"
   ],
+  // "scripts": [
+  //   "./main.js"
+  // ],
   "variables": {
     "first": "Your",
     "last": "Name",
@@ -19,7 +22,6 @@
     "state_full": "State",
     "avatar": "./images/avatar.png"
   },
-
   "variants": {
     "ben_carson": {
       "default": "true",
@@ -28,21 +30,96 @@
         "candidate_name": "Ben Carson"
       }
     },
-    "ted_cruz": {},
-    "rand_paul": {},
-    "allen_west": {},
-    "rick_perry": {},
-    "scott_walker": {},
-    "chris_christie": {},
-    "marco_rubio": {},
-    "mike_huckabe": {},
-    "mitt_romney": {},
-    "rick_santorum": {},
-    "paul_ryan": {},
-    "bobby_jindal": {},
-    "mike_lee": {},
-    "jeb_bush": {},
-    "trey_gowdy": {}
+    "ted_cruz": {
+      "variables": {
+        "candidate_picture": "./images/ted_cruz.jpg",
+        "candidate_name": "Ted Cruz"
+      }
+    },
+    "rand_paul": {
+      "variables": {
+        "candidate_picture": "./images/rand_paul.jpg",
+        "candidate_name": "Rand Paul"
+      }
+    },
+    "allen_west": {
+      "variables": {
+        "candidate_picture": "./images/allen_west.jpg",
+        "candidate_name": "Allen West"
+      }
+    },
+    "rick_perry": {
+      "variables": {
+        "candidate_picture": "./images/rick_perry.jpg",
+        "candidate_name": "Rick Perry"
+      }
+    },
+    "scott_walker": {
+      "variables": {
+        "candidate_picture": "./images/scott_walker.jpg",
+        "candidate_name": "Scott Walker"
+      }
+    },
+    "chris_christie": {
+      "variables": {
+        "candidate_picture": "./images/chris_christie.jpg",
+        "candidate_name": "Chris Christie"
+      }
+    },
+    "marco_rubio": {
+      "variables": {
+        "candidate_picture": "./images/marco_rubio.jpg",
+        "candidate_name": "Marco Rubio"
+      }
+    },
+    "mike_huckabe": {
+      "variables": {
+        "candidate_picture": "./images/mike_huckabe.jpg",
+        "candidate_name": "Mike Huckabe"
+      }
+    },
+    "mitt_romney": {
+      "variables": {
+        "candidate_picture": "./images/mitt_romney.jpg",
+        "candidate_name": "Mitt Romney"
+      }
+    },
+    "rick_santorum": {
+      "variables": {
+        "candidate_picture": "./images/rick_santorum.jpg",
+        "candidate_name": "Rick Santorum"
+      }
+    },
+    "paul_ryan": {
+      "variables": {
+        "candidate_picture": "./images/paul_ryan.jpg",
+        "candidate_name": "Paul Ryan"
+      }
+    },
+    "bobby_jindal": {
+      "variables": {
+        "candidate_picture": "./images/bobby_jindal.jpg",
+        "candidate_name": "Bobby Jindal"
+      }
+    },
+    "mike_lee": {
+      "variables": {
+        "candidate_picture": "./images/mike_lee.jpg",
+        "candidate_name": "Mike Lee"
+      }
+    },
+    "jeb_bush": {
+      "variables": {
+        "candidate_picture": "./images/jeb_bush.jpg",
+        "candidate_name": "Jeb Bush"
+      }
+    },
+    "trey_gowdy": {
+      "variables": {
+        "candidate_picture": "./images/trey_gowdy.jpg",
+        "candidate_name": "Trey Gowdy"
+      }
+    }
   }
 }
 
