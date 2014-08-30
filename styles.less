@@ -41,7 +41,6 @@ body {
 .main {
   position: absolute;
   width: 535px;
-  background: rgba(255, 34, 34, 0.3);
   right: 0;
 }
 .main .main-inner {
@@ -61,7 +60,7 @@ body {
   margin-right: 0;
   width: 90px;
   height: 90px;
-  background: #b4c1cd url(images/profile-avatar.png) no-repeat;
+  background: #b4c1cd;
   margin: -15px 0 0 20px;
   border: 5px solid #FFF;
   overflow: hidden;
@@ -71,6 +70,8 @@ body {
   -webkit-transform: rotate(7deg);
   transform: rotate(6deg);
   -webkit-backface-visibility: hidden
+  box-shadow: 0 0 60px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 .avatar {
   display: block;

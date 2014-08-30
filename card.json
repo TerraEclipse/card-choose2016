@@ -11,6 +11,8 @@
   "styles": [
     "./styles.less"
   ],
+  "typekit": true,
+
   "variables": {
     "first": "Your",
     "last": "Name",
