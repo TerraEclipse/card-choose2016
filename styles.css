@@ -100,6 +100,8 @@ body {
   font-weight: 900;
   font-size: 27px;
   color: #fff;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.5)
 }
 .info .name {
   margin-bottom: 4px;
