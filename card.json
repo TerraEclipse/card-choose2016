@@ -9,7 +9,7 @@
     }
   },
   "styles": [
-    "./styles.less"
+    "./styles.css"
   ],
   "variables": {
     "first": "Your",
