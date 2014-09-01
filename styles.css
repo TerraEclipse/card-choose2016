@@ -143,6 +143,10 @@ body {
 .days-count {
   font-size: 3.9em;
 }
+.days-count .count {
+  position: relative;
+  top: -3px;
+}
 .days-count .count .digit {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
   font-weight: normal;
