@@ -143,4 +143,10 @@ body {
 .days-count .count .digit {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
   font-weight: normal;
+  display: inline-block;
+  padding: 5px 8px;
+  background: #d72f21;
+  margin: 0 2px;
+  border-radius: 7px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.76);
 }
