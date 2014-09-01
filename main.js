@@ -12,14 +12,14 @@
 window.onload = function () {
   var days = getDaysTill()
     , output = ''
-    , $daysCount  = document.getElementById("count");
+    , daysCount  = document.getElementById("count");
 
   // Insert days count as indivitual digits so we can style them separatly.
   days.forEach(function(day) {
     output += '<strong class="digit">'+ day + '</strong>';
   });
 
-  $daysCount.innerHTML(output);
+  daysCount.innerHTML(output);
 };
 
 // Return and array with numer of days slip into individual digits.
