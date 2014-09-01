@@ -35,7 +35,9 @@
           </div>
         </div>
         <p class="statement">
-          <span class="candidate-name">{{candidate_name}}</span>
+          <span class="candidate-name">
+            {{#if candidate_name}}{{candidate_name}}{{else}}Candidate Name{{/if}}
+          </span>
           <span>Is my pick to fix</span>
           <span>Obama's <strong>Disaster</strong></span>
           <span class="days-count">In <strong>877</strong> days</span>
