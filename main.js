@@ -1,3 +1,12 @@
+d.$(document).ready(function() {
+  console.log($('.days-count strong'));
+  var days = getDaysTill();
+  days.forEach(function(day) {
+    console.log('day ' , day);
+
+  });
+});
+
 // Return and array with numer of days slip into individual digits.
 function getDaysTill() {
   var today = new Date()
@@ -16,4 +25,4 @@ function getDaysTill() {
   return DaysArray;
 }
 
-console.log(getDaysTill());
+
