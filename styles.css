@@ -147,6 +147,7 @@ body {
 }
 .days-count {
   font-size: 3.9em;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.89);
 }
 .days-count .count {
   position: relative;
@@ -167,7 +168,7 @@ body {
 .days-count .count .digit::after {
   content: "";
   width: 100%;
-  background: rgba(0, 0, 0, 0.67);
+  background: #000;
   height: 1px;
   position: absolute;
   top: 50%;
