@@ -121,7 +121,8 @@ body {
   margin-top: 22px;
   color: #fff;
 }
-.statement span {
+.statement span,
+.days-count {
   display: block;
   font-size: 3em;
   font-weight: 900;
@@ -129,7 +130,7 @@ body {
   text-shadow: 3px 4px 11px rgba(0, 0, 0, 0.89);
 }
 
-.statement .message-2 strong{
+.statement span > strong{
   display: inline-block;
   width: 247px;
   height: 72px;
