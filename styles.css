@@ -121,10 +121,22 @@ body {
   margin-top: 22px;
   color: #fff;
 }
-.statement span{
+.statement span {
   display: block;
   font-size: 3em;
   font-weight: 900;
   text-transform: uppercase;
   text-shadow: 3px 4px 11px rgba(0, 0, 0, 0.89);
+}
+
+.statement .message-2 {
+  display: inline-block;
+  width: 247px;
+  height: 72px;
+  background: rgba(165, 55, 55, 0.37) url('./images/disaster-text.png');
+  text-indent: -9999px;
+  position: relative;
+  top: -13px;
+  margin-bottom: -20px;
+  z-index: 2;
 }
