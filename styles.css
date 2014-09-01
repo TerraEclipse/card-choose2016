@@ -117,3 +117,14 @@ body {
   top: -4px;
   padding: 0 10px;
 }
+.statement {
+  margin-top: 22px;
+  color: #fff;
+}
+.statement span{
+  display: block;
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 3px 4px 11px rgba(0, 0, 0, 0.89);
+}
