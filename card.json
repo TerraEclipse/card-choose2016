@@ -11,6 +11,10 @@
   "styles": [
     "./styles.css"
   ],
+  "scripts": [
+    "http://code.jquery.com/jquery-1.11.0.min.js",
+    "./main.js"
+  ],
   "variables": {
     "first": "Your",
     "last": "Name",
