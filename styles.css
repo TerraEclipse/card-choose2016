@@ -133,7 +133,7 @@ body {
   display: inline-block;
   width: 247px;
   height: 72px;
-  background: rgba(165, 55, 55, 0.37) url('./images/disaster-text.png');
+  background: url('./images/disaster-text.png');
   text-indent: -9999px;
   position: relative;
   top: -13px;
