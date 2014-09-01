@@ -19,8 +19,7 @@ window.onload = function () {
     output += '<strong class="digit">'+ day + '</strong>';
   });
 
-  $daysCount.innerHTML(outpu);
-
+  $daysCount.innerHTML(output);
 };
 
 // Return and array with numer of days slip into individual digits.
