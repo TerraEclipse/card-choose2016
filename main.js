@@ -1,12 +1,18 @@
-$( document ).ready(function() {
-  var days = getDaysTill()
-    , $daysCount = $('.days-count .count');
+// $( document ).ready(function() {
+//   var days = getDaysTill()
+//     , $daysCount = $('.days-count .count');
 
-  // Insert days count as indivitual digits so we can style them separatly.
-  days.forEach(function(day) {
-    $daysCount.append($('<strong></strong>', { class: 'digit', text: day }));
-  });
-});
+//   // Insert days count as indivitual digits so we can style them separatly.
+//   days.forEach(function(day) {
+//     $daysCount.append($('<strong></strong>', { class: 'digit', text: day }));
+//   });
+// });
+
+
+window.onload = function () {
+  var e = document.getElementById("count");
+  e.innerHTML='Found you';
+};
 
 // Return and array with numer of days slip into individual digits.
 function getDaysTill() {
