@@ -1,9 +1,9 @@
 $( document ).ready(function() {
-  var $daysCount = $('.days-count .count');
+  var days = getDaysTill()
+    , $daysCount = $('.days-count .count');
 
-  var days = getDaysTill();
+  // Insert days count as indivitual digits so we can style them separatly.
   days.forEach(function(day) {
-    console.log('day ' , day);
     $daysCount.append($('<strong></strong>', { class: 'digit', text: day }));
   });
 });
