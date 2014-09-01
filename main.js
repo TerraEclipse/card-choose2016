@@ -1,14 +1,3 @@
-// $( document ).ready(function() {
-//   var days = getDaysTill()
-//     , $daysCount = $('.days-count .count');
-
-//   // Insert days count as indivitual digits so we can style them separatly.
-//   days.forEach(function(day) {
-//     $daysCount.append($('<strong></strong>', { class: 'digit', text: day }));
-//   });
-// });
-
-
 window.onload = function () {
   var days = getDaysTill()
     , output = ''
@@ -18,7 +7,6 @@ window.onload = function () {
   days.forEach(function(day) {
     output += '<strong class="digit">'+ day + '</strong>';
   });
-
   daysCount.innerHTML = output;
 };
 
