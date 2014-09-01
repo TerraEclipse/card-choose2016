@@ -1,14 +1,19 @@
- var today = new Date()
-   , endDate = new Date("2017 jan 17")
-   , diff =  endDate.getTime() - today.getTime()
-   , DaysTill = Math.floor(diff / (1000 * 60 * 60 * 24))
-   , output = []
-   ;
+// Return and array with numer of days slip into individual digits.
+function getDaysTill() {
+  var today = new Date()
+    , endDate = new Date("2017 jan 17")
+    , diff =  endDate.getTime() - today.getTime()
+    , DaysTill = Math.floor(diff / (1000 * 60 * 60 * 24))
+    , DaysArray = []
+    ;
 
-   sNumber = DaysTill.toString();
+  sNumber = DaysTill.toString();
 
   for (var i = 0, len = sNumber.length; i < len; i += 1) {
-    output.push(+sNumber.charAt(i));
+    DaysArray.push(+sNumber.charAt(i));
   }
 
-  console.log(output);
+  return DaysArray;
+}
+
+console.log(getDaysTill());
