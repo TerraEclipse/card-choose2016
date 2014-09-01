@@ -68,10 +68,10 @@
         "candidate_name": "Marco Rubio"
       }
     },
-    "mike_huckabe": {
+    "mike_huckabee": {
       "variables": {
-        "candidate_picture": "./images/mike_huckabe.jpg",
-        "candidate_name": "Mike Huckabe"
+        "candidate_picture": "./images/mike_huckabee.jpg",
+        "candidate_name": "Mike Huckabee"
       }
     },
     "mitt_romney": {
