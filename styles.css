@@ -140,6 +140,9 @@ body {
   margin-bottom: -20px;
   z-index: 2;
 }
+.days-count {
+  font-size: 3.9em;
+}
 .days-count .count .digit {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
   font-weight: normal;
@@ -149,4 +152,5 @@ body {
   margin: 0 2px;
   border-radius: 7px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.76);
+  font-size: 48px;
 }
