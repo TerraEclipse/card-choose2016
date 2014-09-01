@@ -10,8 +10,17 @@
 
 
 window.onload = function () {
-  var e = document.getElementById("count");
-  e.innerHTML='Found you';
+  var days = getDaysTill()
+    , output = ''
+    , $daysCount  = document.getElementById("count");
+
+  // Insert days count as indivitual digits so we can style them separatly.
+  days.forEach(function(day) {
+    output += '<strong class="digit">'+ day + '</strong>';
+  });
+
+  $daysCount.innerHTML(outpu);
+
 };
 
 // Return and array with numer of days slip into individual digits.
