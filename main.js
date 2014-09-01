@@ -1,4 +1,4 @@
-d.$(document).ready(function() {
+$( document ).ready(function() {
   console.log($('.days-count strong'));
   var days = getDaysTill();
   days.forEach(function(day) {
