@@ -164,6 +164,7 @@ body {
   border-radius: 7px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.76);
   font-size: 48px;
+  font-weight: 900;
 }
 .days-count .count .digit::after {
   content: "";
