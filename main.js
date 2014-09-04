@@ -13,7 +13,7 @@ window.onload = function () {
 // Return and array with numer of days slip into individual digits.
 function getDaysTill() {
   var today = Date.now()
-    , endDate = new Date("Jan 17 2017 GMT").getTime()
+    , endDate = new Date(variables.countdown_date).getTime()
     , diff =  endDate - today
     , DaysTill = Math.floor(diff / (1000 * 60 * 60 * 24))
     , DaysArray = []

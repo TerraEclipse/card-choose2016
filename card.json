@@ -20,7 +20,8 @@
     "city": "City",
     "state": "State",
     "state_full": "State",
-    "avatar": "./images/avatar.png"
+    "avatar": "./images/avatar.png",
+    "countdown_date": "1/20/2017 17:00 UTC"
   },
   "variants": {
     "ben_carson": {
