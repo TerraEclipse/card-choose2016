@@ -46,6 +46,9 @@ body {
 .main .main-inner {
   margin: 40px 15px 0;
 }
+.main-inner {
+  position: relative;
+}
 .user-profile-wrapper {
   position: absolute;
   width: 100%;
@@ -157,7 +160,7 @@ body {
   font-size: 3.9em;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.89);
   position: absolute;
-  top: 242;
+  top: 242px;
   width: 100%;
 }
 .days-count .count {
